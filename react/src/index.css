@@ -58,8 +58,11 @@ body {
   width: 1126px;
   max-width: 100%;
   margin: 0 auto;
+  text-align: center;
   border-inline: 1px solid var(--border);
   min-height: 100svh;
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
 }
 
@@ -106,19 +109,3 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
-
-
-.button {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 8px 16px;
-  font-size: 15px;
-  line-height: 135%;
-  border-radius: 4px;
-  background: var(--accent-bg);
-  color: var(--accent);
-  border: 1px solid var(--accent-border);
-  cursor: pointer;
-  text-decoration: none;
-  transition: background 0.2s, border-color 0.2s; }
